@@ -1,0 +1,89 @@
+.mainscreen {
+    /* background: linear-gradient(159deg,rgba(37,37,50,.98) 0,rgba(35,35,45,.98) 100%); */
+    /* width: 100vh; */
+    background-color: #191923;
+    height: 100vh;
+    padding:1%;
+}
+.header{
+    width: 80%;
+}
+.header {
+    height: 42.7%;
+    margin-left: 0.5%;
+    background-image: url(../images/sports-physio.png);
+    animation-name: example;
+    animation-duration: 12s;
+    animation-delay: -2s;
+    animation-iteration-count: 100;   
+}
+@keyframes example {
+    0%   {background-image: url(../images/depositphotos_419214102-stock-illustration-physiotherapist-rehabilitologist-doctor-rehabilitates-elderly.jpeg)}
+    25%  {background-image: url(../images/physiotherapist-doctor-rehabilitates-elderly-patient-vector-illustration-physiotherapy-rehab-injury-recovery-concept-162827464.jpeg)}
+    50%  {background-image: url(../images/physiotherapy-concept-illustration_114360-7494.avif)}
+    100% {background-image: url(../images/sports-physiotherapy-illustration_23-2150076880.avif)}
+  }
+
+  .innerContent{
+    background: rgba(0, 0, 0, 0.5);
+    height: 94%;
+    top:0;
+    padding: 1%;
+  }
+
+  .profileContent{
+    padding: 2%;
+    background-color: rgb(46, 56, 64, 0.7);
+    display: flex;
+    width:"100%";
+    margin-top:"4rem"
+  }
+
+.sideNav {
+    background: linear-gradient(159deg,rgba(37,37,50,.98) 0,rgba(35,35,45,.98) 100%);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    /* margin: 2px; */
+}
+.text{
+    color: #fafafc;
+    margin-top: 10%;
+    font-size: 13px;
+}
+.progressBar {
+    width: 30%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(30, end),
+      blink-caret .5s step-end infinite;
+    animation-iteration-count: 100;   
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
