@@ -73,7 +73,8 @@
     animation: 
       typing 5s steps(30, end),
       blink-caret .5s step-end infinite;
-    animation-iteration-count: 100;   
+    animation-iteration-count: 100; 
+      
   }
   
   /* The typing effect */
